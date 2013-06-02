@@ -1,4 +1,13 @@
 <?php
+/*
+ * ScratchSig extension for MediaWiki
+ * Renders <scratchsig> tag with profile image from scratch.mit.edu
+ *
+ * Copyright 2013, Tim Radvan
+ * MIT Licensed
+ * http://opensource.org/licenses/MIT
+ *
+ */
 
 if (!defined('MEDIAWIKI')) {
     die();
