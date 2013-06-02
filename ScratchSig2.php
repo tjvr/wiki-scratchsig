@@ -46,7 +46,9 @@ function sigFetchProfile ($username) {
     // Fetch page
     $data = file_get_contents("http://scratch.mit.edu/site-api/users/all/$username/");
     $json = json_decode($data, $assoc=true);
-    return $json['thumbnail_url'];
+    $pk = $json['user']['pk'];
+    $image_url = "http://cdn.scratch.mit.edu/get_image/user/{$pk}_18x18.png";
+    return $image_url;
 }
 
 
