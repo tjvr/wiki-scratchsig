@@ -74,7 +74,7 @@ function sigRenderTag ($input, array $args, Parser $parser, PPFrame $frame) {
     $o =  '<br>'
         . '<span class="scratch-sig">'
         . '<a href="/wiki/User:'.$username.'">'
-        . '<img src="' . $img_url . '" width="21">'
+        . '<img src="' . $img_url . '" width="18px" height="18px">'
         . '</a>'
         . ' '
         . '<a href="/wiki/User:'.$username.'">'
