@@ -1,6 +1,6 @@
-A simple MediaWiki extension for Scratch-style wiki talk signatures.
+Simple MediaWiki extension for wiki talk signatures with Scratch avatars.
 
-Uses the 2.0 site API to fetch avatar thumbnail image URLs:
+Uses the Scratch 2.0 site API to fetch avatar thumbnail image URLs:
 
     http://scratch.mit.edu/site-api/users/all/{username}/
 
