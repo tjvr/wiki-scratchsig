@@ -106,6 +106,6 @@ $wgResourceModules['ext.scratchSig'] = array(
     'styles' => 'scratchsig.css',
 
     'localBasePath' => __DIR__,
-    'remoteExtPath' => 'ScratchSig2'
+    'remoteExtPath' => 'mw-ScratchSig2'
 );
 
