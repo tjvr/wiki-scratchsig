@@ -67,7 +67,7 @@ function sigGetAvatarUrl ($username) {
 // Called to output HTML for <scratchsig> tag
 
 function sigRenderTag ($input, array $args, Parser $parser, PPFrame $frame) {
-    $username = $input;
+    $username = htmlspecialchars($input);
 
     $img_url = sigGetAvatarUrl($username);
 
